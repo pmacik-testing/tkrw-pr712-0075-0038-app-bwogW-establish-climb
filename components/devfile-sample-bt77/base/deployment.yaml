@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-bt77
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0038-tenant/tkrw-pr712-0075-0038-app/devfile-sample-bt77@sha256:25372164e7bd0c70d618a889abcc7cc26161dbb2230d04fa60c76592353230fa
         name: my-nodejs
         ports:
         - containerPort: 3001
